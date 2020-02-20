@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+}
+
+.dropdownmenu{
+    position: relative;
+    margin-right:100px;
+}
+
+.menu-left a{
+    margin-left: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.total-price{
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+    margin-left: auto;
+    padding: 0 25px;
+}
+.total-price *{
+    padding: 0 5px;
+}
+
+.dropdownmenu svg{
+    height: 2.5em ;
+    width: 2.5em ;
+}
+.dropdownmenu svg:hover {
+    fill: rgb(147, 182, 112);
+}
+.dropdown-menu{
+    left: -70px;
+}
+#shopcarousel{
+
+    margin: 40px auto;
+
+}
+#shopcarousel img{
+    height: 600px;
+    width: 1000px;
+}
+.carousel-caption{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px white;
+    opacity: 0.7;
+}
+.col-lg-5{
+   display: flex; 
+   height: 270px;
+    margin: 45px auto;
+}
+figure {
+    width: 400px;
+    height: auto;
+}
+figure img{
+    height: 240px !important ;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+.desc p{
+    flex-grow: 1;
+}
+
+.btn-group{
+    align-self: flex-end;
+    margin: 0 10px 50px;
+}
